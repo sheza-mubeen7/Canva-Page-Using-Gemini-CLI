@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canva Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    
+</head>
+<body class="text-white min-h-screen flex flex-col">
+    <div class="flex-grow flex flex-col">
+        <header class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-4xl font-semibold" style="font-family: 'Great Vibes', cursive;">Canva</div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#" class="hover:text-gray-300">Design</a>
+                <a href="#" class="hover:text-gray-300">Product</a>
+                <a href="#" class="hover:text-gray-300">Plans</a>
+                <a href="#" class="hover:text-gray-300">Business</a>
+                <a href="#" class="hover:text-gray-300">Education</a>
+                <a href="#" class="hover:text-gray-300">Help</a>
+            </nav>
+            <div class="hidden md:flex items-center space-x-4">
+                <button class="bg-purple-400 px-4 py-2 rounded-md" style="background-color: #a78bfa;">Sign up</button>
+                <button class="bg-white text-black px-4 py-2 rounded-md">Log in</button>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </header>
+        <main class="container mx-auto px-8 flex-grow flex flex-col justify-center text-center">
+            <div>
+                <h1 class="text-5xl md:text-8xl ">A new era</h1>
+                <h1 class="text-5xl md:text-8xl ">of imagination</h1>
+                <p class="mt-4 text-lg">Discover a whole new world of skills and tools</p>
+                <p class="text-lg">designed to put your imagination to work.</p>
+                <div class="mt-8 space-x-4">
+                    <button class="bg-white text-black px-6 py-3 rounded-md">Start designing for free</button>
+                    <button class="text-white px-6 py-3 rounded-md" style="background-color: #4b5563;">Explore our launches</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="w-full">
+        <div class="flex justify-between items-end px-6 h-24">
+            <div class="flex items-end">
+                <div class="bg-blue-300 w-16 h-10 rounded-lg mr-2 flex items-center justify-center text-black font-bold text-2xl">T</div>
+            </div>
+            <div class="flex items-end">
+                <div class="bg-pink-300 w-8 h-8 rounded-full mr-2"></div>
+                <div class="bg-purple-400 w-12 h-12 rounded-lg mr-2"></div>
+                <div class="bg-blue-400 w-10 h-10 rounded-full"></div>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="w-16 h-4 bg-purple-600 rounded-t-md"></div>
+                <div class="w-20 h-8 bg-purple-600"></div>
+                <div class="w-2 h-6 bg-yellow-400 absolute" style="transform: rotate(45deg); right: 40px; bottom: 20px;"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
